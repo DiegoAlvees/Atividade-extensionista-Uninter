@@ -1,0 +1,264 @@
+{
+  "cidade": "Artur Nogueira",
+  "estado": "SP",
+  "categorias": [
+    {
+      "id": "saude",
+      "nome": "Saúde",
+      "icone": "🏥",
+      "cor": "#0ea5e9",
+      "unidades": [
+        {
+          "id": "ubs-sao-joao",
+          "nome": "UBS São João dos Pinheiros",
+          "logradouro": "Rua Cristian Cesar Carrai",
+          "bairro": "Nosso Sonho",
+          "numero": "80",
+          "telefone": "(19) 3877-9000",
+          "cep": "13164-284"
+        },
+        {
+          "id": "usf-bom-jardim",
+          "nome": "USF Bom Jardim",
+          "logradouro": "Rua Antônio Peloia",
+          "bairro": "Bom Jardim",
+          "numero": "400",
+          "telefone": "(19) 3827-4550",
+          "cep": "13165-324"
+        },
+        {
+          "id": "usf-pq-trabalhadores",
+          "nome": "USF Parque dos Trabalhadores",
+          "logradouro": "Rua José Augusto Mengue",
+          "bairro": "Parque dos Trabalhadores",
+          "numero": "S/N",
+          "telefone": "—",
+          "cep": "13165-482"
+        },
+        {
+          "id": "usf-coracao-crianca",
+          "nome": "USF Coração Criança",
+          "logradouro": "Rua Coração Criança",
+          "bairro": "Coração Criança",
+          "numero": "38",
+          "telefone": "(19) 3827-1911",
+          "cep": "13167-528"
+        },
+        {
+          "id": "usf-sao-vicente",
+          "nome": "USF São Vicente",
+          "logradouro": "Rua Clóvis dos Santos",
+          "bairro": "Cidade Jardim",
+          "numero": "320",
+          "telefone": "(19) 3877-1762",
+          "cep": "13165-014"
+        },
+        {
+          "id": "espaco-mae-filho",
+          "nome": "Espaço Mãe e Filho",
+          "logradouro": "Avenida 15 de Novembro",
+          "bairro": "Jardim Planalto",
+          "numero": "1555",
+          "telefone": "(19) 3877-3751",
+          "cep": "13167-190"
+        },
+        {
+          "id": "hospital-maternidade",
+          "nome": "Hospital e Maternidade de Artur Nogueira",
+          "logradouro": "Av. Dr. Fernando Arens",
+          "bairro": "Vila Queiroz",
+          "numero": "939",
+          "telefone": "(19) 3827-7000",
+          "cep": "13163-006"
+        },
+        {
+          "id": "caps-i",
+          "nome": "CAPS I",
+          "logradouro": "Rua José Amaro Rodrigues",
+          "bairro": "Centro",
+          "numero": "668",
+          "telefone": "(19) 3827-9000",
+          "cep": "13160-048"
+        },
+        {
+          "id": "farmacia-municipal",
+          "nome": "Farmácia Municipal",
+          "logradouro": "Rua Antônio Matheus",
+          "bairro": "Centro",
+          "numero": "1033",
+          "telefone": "(19) 3827-9028",
+          "cep": "13162-012"
+        },
+        {
+          "id": "transporte-sanitario",
+          "nome": "Transporte Sanitário",
+          "logradouro": "Avenida Dr. Fernando Arens Júnior",
+          "bairro": "Centro",
+          "numero": "939",
+          "telefone": "—",
+          "cep": "13163-006"
+        },
+        {
+          "id": "centro-infectologia",
+          "nome": "Centro de Infectologia",
+          "logradouro": "Avenida Fernando Arens",
+          "bairro": "Centro",
+          "numero": "631",
+          "telefone": "(19) 3827-9013",
+          "cep": "13163-006"
+        },
+        {
+          "id": "centro-regulacao",
+          "nome": "Centro de Regulação de Saúde",
+          "logradouro": "Av. Dr. Fernando Arens",
+          "bairro": "Centro",
+          "numero": "939",
+          "telefone": "(19) 3877-1459",
+          "cep": "13163-006"
+        },
+        {
+          "id": "cem",
+          "nome": "CEM – Centro de Especialidades Médicas",
+          "logradouro": "Av. Dr. Fernando Arens Júnior",
+          "bairro": "Centro",
+          "numero": "939",
+          "telefone": "(19) 3877-4983",
+          "cep": "13163-006"
+        },
+        {
+          "id": "usf-blumenau",
+          "nome": "USF Blumenau",
+          "logradouro": "Rua São Paulo",
+          "bairro": "Blumenau",
+          "numero": "400",
+          "telefone": "(19) 3827-1220",
+          "cep": "13169-226"
+        }
+      ]
+    },
+    {
+      "id": "assistencia-social",
+      "nome": "Assistência Social",
+      "icone": "🤝",
+      "cor": "#f59e0b",
+      "unidades": [
+        {
+          "id": "cras",
+          "nome": "CRAS – Centro de Referência de Assistência Social",
+          "logradouro": "Avenida XV de Novembro",
+          "bairro": "Jardim Planalto",
+          "numero": "1400",
+          "telefone": "(19) 3827-9700",
+          "cep": "13165-025"
+        },
+        {
+          "id": "creas",
+          "nome": "CREAS – Centro de Referência Especializado de Assistência Social",
+          "logradouro": "Avenida XV de Novembro",
+          "bairro": "Jardim Planalto",
+          "numero": "1400",
+          "telefone": "(19) 3827-9700",
+          "cep": "13165-025"
+        },
+        {
+          "id": "conselho-tutelar",
+          "nome": "Conselho Tutelar",
+          "logradouro": "Rua Sete de Setembro",
+          "bairro": "Centro",
+          "numero": "1692",
+          "telefone": "(19) 3877-1144",
+          "cep": "13160-164"
+        },
+        {
+          "id": "coord-mulher",
+          "nome": "Coordenadoria da Mulher",
+          "logradouro": "Avenida XV de Novembro",
+          "bairro": "Jardim Planalto",
+          "numero": "1400",
+          "telefone": "(19) 3827-9700",
+          "cep": "13165-025"
+        },
+        {
+          "id": "secretaria-social",
+          "nome": "Secretaria de Assistência Social",
+          "logradouro": "Avenida XV de Novembro",
+          "bairro": "Jardim Planalto",
+          "numero": "1400",
+          "telefone": "(19) 3827-9700",
+          "cep": "13165-025"
+        }
+      ]
+    },
+    {
+      "id": "educacao",
+      "nome": "Educação",
+      "icone": "🎓",
+      "cor": "#10b981",
+      "unidades": [
+        {
+          "id": "emef-alcidia",
+          "nome": "EMEF Profª Alcídia Teixeira Whitaker Matteis",
+          "logradouro": "Rua Seraphim da Silva Barros",
+          "bairro": "Parque Residencial Itamaraty",
+          "numero": "371",
+          "telefone": "(19) 3827-9700",
+          "cep": "13163-538"
+        },
+        {
+          "id": "emef-amaro",
+          "nome": "EMEF Prof. Amaro Rodrigues",
+          "logradouro": "Rua Clementina Cardoso de Faveri",
+          "bairro": "Jardim Leonor",
+          "numero": "80",
+          "telefone": "(19) 3827-9700",
+          "cep": "13165-130"
+        },
+        {
+          "id": "apae",
+          "nome": "APAE de Artur Nogueira",
+          "logradouro": "Rua Ernesto Tagliari",
+          "bairro": "Parque das Laranjeiras",
+          "numero": "2701",
+          "telefone": "(19) 3877-1747",
+          "cep": "13164-072"
+        },
+        {
+          "id": "emeief-aparecida",
+          "nome": "EMEIEF Profª Aparecida Dias dos Santos",
+          "logradouro": "Rua Francisco Cabrino",
+          "bairro": "Parque Residencial Humberto Rossetti",
+          "numero": "2251",
+          "telefone": "(19) 3827-9280",
+          "cep": "13164-100"
+        },
+        {
+          "id": "emef-falcone",
+          "nome": "EMEF Professor Armando Falcone",
+          "logradouro": "Rua Antônio Cesar Druzian",
+          "bairro": "Jardim Sacilotto",
+          "numero": "383",
+          "telefone": "(19) 3877-4496",
+          "cep": "13167-312"
+        },
+        {
+          "id": "cemei-teresani",
+          "nome": "CEMEI Vereador José Amazilio Teresani",
+          "logradouro": "Rua Gustavo Strassa Neto",
+          "bairro": "Parque Residencial Bom Jardim",
+          "numero": "185",
+          "telefone": "(19) 3827-9700",
+          "cep": "13165-322"
+        },
+        {
+          "id": "emef-rossetti",
+          "nome": "EMEF Prefeito Ederaldo Rossetti",
+          "logradouro": "Rua Vereador Luiz Guidotti",
+          "bairro": "Parque dos Trabalhadores",
+          "numero": "335",
+          "telefone": "(19) 3877-1723",
+          "cep": "13167-518"
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,94 @@
-# React + Vite
+# Sistema de Consulta de Serviços Públicos de Artur Nogueira/SP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Introdução
 
-Currently, two official plugins are available:
+O acesso rápido a informações sobre serviços públicos é essencial para a população. Muitas vezes os cidadãos encontram dificuldades para localizar endereços, telefones e informações de unidades de saúde, assistência social e educação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Com o objetivo de facilitar esse acesso, foi desenvolvido um sistema web para centralizar informações de serviços públicos do município de Artur Nogueira/SP, permitindo consultas rápidas e intuitivas.
 
-## React Compiler
+## 2. Objetivos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Objetivo Geral
 
-## Expanding the ESLint configuration
+Desenvolver uma plataforma web que reúna informações de serviços públicos municipais em um único local.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Objetivos Específicos
+
+* Disponibilizar informações de unidades de saúde.
+* Disponibilizar informações de assistência social.
+* Disponibilizar informações de instituições de ensino.
+* Permitir pesquisa rápida por nome da unidade.
+* Facilitar a localização através da integração com o Google Maps.
+* Disponibilizar uma interface moderna e responsiva.
+
+## 3. Tecnologias Utilizadas
+
+Para o desenvolvimento do projeto foram utilizadas as seguintes tecnologias:
+
+* React.js
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+* JSON para armazenamento dos dados
+* Lucide React para utilização de ícones
+* Vercel para hospedagem da aplicação
+
+## 4. Desenvolvimento
+
+O sistema foi desenvolvido utilizando React, adotando uma estrutura baseada em componentes para facilitar a manutenção e reutilização do código.
+
+As informações das unidades foram armazenadas em um arquivo JSON estruturado por categorias:
+
+* Saúde
+* Assistência Social
+* Educação
+
+Cada unidade contém:
+
+* Nome
+* Endereço
+* Bairro
+* Número
+* CEP
+* Telefone
+
+Foi implementado um mecanismo de busca que permite localizar rapidamente qualquer unidade cadastrada.
+
+Além disso, cada registro possui integração com o Google Maps, possibilitando a abertura da localização diretamente no mapa.
+
+## 5. Funcionalidades
+
+O sistema possui as seguintes funcionalidades:
+
+* Consulta de unidades públicas.
+* Pesquisa por nome da unidade.
+* Exibição organizada por categorias.
+* Visualização de endereço completo.
+* Exibição de telefone para contato.
+* Redirecionamento para o Google Maps.
+* Interface responsiva para computadores e dispositivos móveis.
+
+## 6. Resultados Obtidos
+
+O sistema desenvolvido conseguiu centralizar informações importantes dos serviços públicos do município de Artur Nogueira/SP em uma única plataforma.
+
+A solução apresentou boa usabilidade, permitindo que os usuários encontrem rapidamente informações relevantes sobre unidades de saúde, assistência social e educação.
+
+A hospedagem na plataforma Vercel possibilitou a disponibilização do sistema na internet de forma gratuita e acessível.
+
+## 7. Conclusão
+
+O desenvolvimento deste projeto permitiu aplicar conhecimentos de desenvolvimento web utilizando React, manipulação de dados em formato JSON, organização de componentes e publicação de aplicações em ambiente online.
+
+Além do aprendizado técnico, o projeto contribui socialmente ao facilitar o acesso da população às informações dos serviços públicos municipais, promovendo maior praticidade e acessibilidade aos cidadãos.
+
+## 8. Referências
+
+React. Disponível em: https://react.dev
+
+Vite. Disponível em: https://vitejs.dev
+
+Google Maps Platform. Disponível em: https://developers.google.com/maps
+
+Vercel. Disponível em: https://vercel.com
