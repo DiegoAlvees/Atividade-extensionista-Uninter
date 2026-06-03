@@ -36,13 +36,9 @@ Para o desenvolvimento do projeto foram utilizadas as seguintes tecnologias:
 
 ## 4. Desenvolvimento
 
-O sistema foi desenvolvido utilizando React, adotando uma estrutura baseada em componentes para facilitar a manutenção e reutilização do código.
+O sistema foi desenvolvido utilizando React e CSS
 
-As informações das unidades foram armazenadas em um arquivo JSON estruturado por categorias:
-
-* Saúde
-* Assistência Social
-* Educação
+As informações das unidades foram armazenadas em um arquivo JSON.
 
 Cada unidade contém:
 
@@ -79,16 +75,9 @@ A hospedagem na plataforma Vercel possibilitou a disponibilização do sistema n
 
 ## 7. Conclusão
 
-O desenvolvimento deste projeto permitiu aplicar conhecimentos de desenvolvimento web utilizando React, manipulação de dados em formato JSON, organização de componentes e publicação de aplicações em ambiente online.
+O desenvolvimento deste projeto permitiu aplicar conhecimentos de desenvolvimento web utilizando React, manipulação de dados em formato JSON e publicação de aplicações em ambiente online.
 
 Além do aprendizado técnico, o projeto contribui socialmente ao facilitar o acesso da população às informações dos serviços públicos municipais, promovendo maior praticidade e acessibilidade aos cidadãos.
 
-## 8. Referências
 
-React. Disponível em: https://react.dev
-
-Vite. Disponível em: https://vitejs.dev
-
-Google Maps Platform. Disponível em: https://developers.google.com/maps
-
-Vercel. Disponível em: https://vercel.com
+Link do Deploy do projeto: https://atividade-extensionista-uninter.vercel.app/ 
